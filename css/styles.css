@@ -11,8 +11,7 @@ body {
     font-size:14px;
     font-weight:400;
     background-color: var(--color-backgraund);
-    line-height:1.71;
-}
+    }
 li{
     list-style:none;
 }
@@ -27,11 +26,13 @@ li{
 }
 
 .logo {
-    color: var(--color-brand);  
+    color: var(--color-brand);
+    text-decoration: none;  
     }
 .link {
-    color:inherit;
+    color:var(--color-primery);
     font-weight: 500;
+    text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -76,6 +77,10 @@ li{
 .title {
          font-weight: 700;
          text-transform: uppercase;
+         font-size: 14px;
+}
+.title-item {
+         color: var(--color-secondary);
 }
 .subject {    
          font-weight: 700;
@@ -116,12 +121,12 @@ li{
 
 /* Portfolio */
 .list-button {
-         color: var(--color-primery);
          font-weight: 500;
          font-size: 16px;
-         line-height: 26px; 
-         letter-spacing: 0.03em; 
-          
+         line-height: 1.63; 
+         letter-spacing: 0.03em;
+         cursor: pointer; 
+         font-family:inherit;
 }
 .list-button:hover,
 .list-button:focus {
@@ -131,7 +136,7 @@ li{
 .heading {
          font-weight: 700;
          font-size: 18px;
-         line-height: 2;           
+         line-height:2;           
          letter-spacing: 0.06em;
 }
 .subtitle {
