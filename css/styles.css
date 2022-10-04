@@ -127,12 +127,15 @@ li{
 
 /* Portfolio */
 .list-button {
+         color:var(--color-primery);
+         background-color:#f5f4fa;
          font-weight: 500;
          font-size: 16px;
          line-height: 1.63; 
          letter-spacing: 0.03em;
          cursor: pointer; 
-         font-family:"Roboto",sans-serif;;
+         font-family:"Roboto",sans-serif;
+         
 }
 .list-button:hover,
 .list-button:focus {
